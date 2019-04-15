@@ -1,0 +1,21 @@
+ @import "@material/button/mdc-button";
+
+ @import "@material/card/mdc-card";
+ @import "@material/layout-grid/mdc-layout-grid";
+
+.foo-button {
+  @include mdc-button-ink-color(teal);
+  @include mdc-states(teal);
+}
+
+.foo-card{
+  padding: 16px;
+}
+
+.my-card__media{
+  background-image: url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+}
+
+.first-card{
+  padding: 16px;
+}
