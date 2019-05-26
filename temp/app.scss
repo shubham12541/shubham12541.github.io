@@ -3,6 +3,13 @@
  @import "@material/card/mdc-card";
  @import "@material/layout-grid/mdc-layout-grid";
 
+
+ @import "@material/shape/mixins";
+ @import "@material/shape/functions";
+
+ $mdc-shape-large-component-radius: 20px;
+ $mdc-shape-medium-component-radius: 20px;
+
 .foo-button {
   @include mdc-button-ink-color(teal);
   @include mdc-states(teal);
@@ -17,6 +24,12 @@
   background-image: url('images/stack-overflow.png');
   height: 200px;
   widtH: 500px;
+}
+
+.card-title{
+  padding: 16px;
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 .first-card{

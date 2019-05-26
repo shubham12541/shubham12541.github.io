@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@material/card": "^1.1.1",
-    "@material/layout-grid": "^0.41.0"
+    "@material/layout-grid": "^0.41.0",
+    "@material/shape": "^1.1.1"
   },
   "devDependencies": {
     "@material/button": "^1.1.1",
